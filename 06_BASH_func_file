@@ -1,0 +1,12 @@
+function addnum() {
+read -p "Введите переменную: " value
+read -p "Введите вторую переменную: " value2
+result=$(($value+$value2))
+echo "Результат сложения переменных: $result"
+}
+function addnum2() {
+read -p "Введите переменную: " value
+read -p "Введите вторую переменную: " value2
+result=$(($value-$value2))
+echo "Результат вычитания переменных: $result"
+}
